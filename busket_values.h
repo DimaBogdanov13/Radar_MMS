@@ -53,7 +53,7 @@ public:
 
             if(get_All_Count_Ball() != 1){
 
-                int num = QRandomGenerator::global()->bounded(1, get_All_Count_Ball());
+                int num = QRandomGenerator::global()->bounded(0, get_All_Count_Ball());
 
                 if(num < count_Blue_Ball){
 

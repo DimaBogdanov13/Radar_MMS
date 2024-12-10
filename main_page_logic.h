@@ -101,7 +101,7 @@ public slots:
 
                 if(busket_Values_1->get_All_Count_Ball() > 0 && busket_Values_2->get_All_Count_Ball() > 0){
 
-                    int num = QRandomGenerator::global()->bounded(0, 1);
+                    int num = QRandomGenerator::global()->bounded(0, 2);
 
                     if(num == 0){
 
@@ -141,7 +141,6 @@ public slots:
 
             emit less_Than_Two_Balls_Signal();
 
-            qDebug() << "В корзине меньше 2-х шаров!";
         }
 
     }
@@ -149,9 +148,9 @@ public slots:
 
 private:
 
-    Busket_Values *busket_Values_1 = new Busket_Values(1, 2, 4, 1);
+    Busket_Values *busket_Values_1 = new Busket_Values(1, 2, 5, 1);
 
-    Busket_Values *busket_Values_2 = new Busket_Values(2, 1, 0, 0);
+    Busket_Values *busket_Values_2 = new Busket_Values(2, 1, 3, 4);
 
     float probability_Two_Blue_Balls, probability_Two_Red_Balls, probability_One_Blue_And_One_Red_Balls;
 

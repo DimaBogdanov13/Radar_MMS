@@ -65,15 +65,15 @@ Window {
                 spacing: spacing_value
 
                 Label{
-                    text: "Вероятность достать 2 сниних шара " + main_Page_Logic.probability_Two_Blue_Balls + " %"
+                    text: "Вероятность достать 2 сниних шара " + main_Page_Logic.probability_Two_Blue_Balls.toFixed(2) + " %"
                 }
 
                 Label{
-                    text: "Вероятность достать 2 красных шара " + main_Page_Logic.probability_Two_Red_Balls + " %"
+                    text: "Вероятность достать 2 красных шара " + main_Page_Logic.probability_Two_Red_Balls.toFixed(2) + " %"
                 }
 
                 Label{
-                    text: "Вероятность достать 1 красный и 1 сниний шары " + main_Page_Logic.probability_One_Blue_And_One_Red_Balls + " %"
+                    text: "Вероятность достать 1 красный и 1 сниний шары " + main_Page_Logic.probability_One_Blue_And_One_Red_Balls.toFixed(2) + " %"
                 }
 
                 Label{
