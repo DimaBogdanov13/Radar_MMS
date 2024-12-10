@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Busket_Block_UI.qml</file>
+    </qresource>
+</RCC>
