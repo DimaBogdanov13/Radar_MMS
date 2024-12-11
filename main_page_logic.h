@@ -148,7 +148,7 @@ public slots:
 
 private:
 
-    Busket_Values *busket_Values_1 = new Busket_Values(1, 2, 5, 1);
+    Busket_Values *busket_Values_1 = new Busket_Values(1, 2, 5, 1); // Последние два аргумента количество синих и красных шаров
 
     Busket_Values *busket_Values_2 = new Busket_Values(2, 1, 3, 4);
 
